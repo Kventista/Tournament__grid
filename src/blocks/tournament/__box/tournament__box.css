@@ -1,0 +1,37 @@
+.tournament__box {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tournament__box_center {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.tournament__box_final {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    '. title'
+    'command command';
+}
+@media screen and (min-width: 630px) and (max-width: 829px) {
+    .tournament__box_final {
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 629px) {
+    .tournament__box {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tournament__box_final {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}

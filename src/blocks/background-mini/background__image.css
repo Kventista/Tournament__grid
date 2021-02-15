@@ -1,0 +1,20 @@
+.background__image-top {
+    padding: 0 1rem 3rem 1rem;
+    max-width: 540px;
+    background-image: url('../../images/top.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin: auto;
+}
+
+.background__image-bottom {
+    padding: 1rem;
+    max-width: 540px;
+    background-image: url('../../images/bottom.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin: auto;
+}
+

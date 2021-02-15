@@ -1,0 +1,28 @@
+.item__text {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+@media screen and (min-width: 530px) and (max-width: 829px) {
+    .item__text {
+        margin-left: 0.2rem;
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (min-width: 830px) and (max-width: 1024px) {
+    .item__text {
+        margin-left: 0.4rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 629px) {
+    .item__text {
+        font-size: 0.75rem;
+    }
+}

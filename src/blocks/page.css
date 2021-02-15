@@ -1,0 +1,44 @@
+@font-face {
+    src: url('../fonts/Sansation_Regular.ttf');
+    font-family: 'Sansation_Regular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../fonts/Sansation_Light.ttf');
+    font-family: 'Sansation_Light';
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../fonts/Sansation_Bold.ttf');
+    font-family: 'Sansation_Bold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.page {
+    background: linear-gradient(180deg, #04152e 0%, #487097 50%, #222e11 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    color: #3C3C54;
+    font-family: 'Sansation_Bold', sans-serif;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 629px) {
+    .page {
+        background: linear-gradient(180deg, #04152e 0%, #487097 50%, #222e11 100%);
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0 auto;
+        color: #3C3C54;
+        font-family: 'Sansation_Bold', sans-serif;
+
+    }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Kventista">
+    <meta name="about-project" content="Турнирная сетка">
+    <link rel="icon" href="<%=require('./images/ball.png')%>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <title>Tournament_grid</title>
+</head>
+
+<body>
+<div class="page">
+    <section class="content">
+        <main class="background-image">
+            <section class="tournament__box">
+                <div id='top_1' class="tournament__title">
+                    <h3 class="tournament__title_item">1/4 финала</h3>
+                    <h3 class="tournament__title_item">1/2 финала</h3>
+                </div>
+                <div class="tournament__item_win item-center__win">
+                    <img class="win__image" src="<%=require('./images/cup.svg')%>">
+                    <div class="win__command">
+                        <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                        <img class="win__command_image" src="<%=require('./images/zenit.png')%>">
+                    </div>
+                </div>
+                <div id='top_2' class="tournament__title">
+                    <h3 class="tournament__title_item">1/2 финала</h3>
+                    <h3 class="tournament__title_item">1/4 финала</h3>
+                </div>
+            </section>
+
+            <section class="tournament__table">
+                <div class="tournament__block">
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/france.svg')%>">
+                        <h4 class="item__text">Пари
+                            Сен-Жермен</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/spain.svg')%>">
+                        <h4 class="item__text">Реал<br>
+                            Мадрид</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/italy.svg')%>">
+                        <h4 class="item__text">Ювентус</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/germany.svg')%>">
+                        <h4 class="item__text">Бавария</h4>
+                    </div>
+                </div>
+                <!--Центральный блок веохний-->
+                <div class="tournament__box_center">
+                    <div class="tournament__block_center center-top">
+                        <div class="tournament__item item-center">
+                            <img class="item__flag" src="<%=require('./images/flag/spain.svg')%>">
+                            <h4 class="item__text">Реал<br>
+                                Мадрид</h4>
+                        </div>
+                        <div class="tournament__item item-center">
+                            <img class="item__flag" src="<%=require('./images/flag/united-kingdom.svg')%>">
+                            <h4 class="item__text">Манчестер<br>
+                                Юнайтед</h4>
+                        </div>
+                    </div>
+
+                    <!--Блок финала-->
+                    <div class="tournament__box_final">
+                        <div class="tournament__title_final">
+                            <h3 class="tournament__title_item title-final">Ф И Н А Л</h3>
+                        </div>
+                        <div class="tournament__block_final">
+                            <div class="block-final">
+                                <div class="tournament__item item-final">
+                                    <img class="item__flag" src="<%=require('./images/flag/spain.svg')%>">
+                                    <h4 class="item__text">Реал<br>
+                                        Мадрид</h4>
+                                </div>
+                            </div>
+                            <div class="block-final">
+                                <div class="tournament__item item-final">
+                                    <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                                    <h4 class="item__text">Зенит</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Центральный блок нижний-->
+                    <div class="tournament__block_center center-bottom">
+                        <div class="tournament__item item-center">
+                            <img class="item__flag" src="<%=require('./images/flag/italy.svg')%>">
+                            <h4 class="item__text">Ювентус</h4>
+                        </div>
+                        <div class="tournament__item item-center">
+                            <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                            <h4 class="item__text">Зенит</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tournament__block">
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/portugal.svg')%>">
+                        <h4 class="item__text">Порту</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/united-kingdom.svg')%>">
+                        <h4 class="item__text">Манчестер
+                            Юнайтед</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                        <h4 class="item__text">Зенит</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/switzerland.svg')%>">
+                        <h4 class="item__text">Базель</h4>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </section>
+    <section class="content__mini">
+        <div class="background__image-top">
+            <div class="tournament__box">
+                <h3 class="tournament__title_item">1/4 финала</h3>
+                <h3 class="tournament__title_item">1/2 финала</h3>
+            </div>
+            <div class="tournament__table">
+                <div class="tournament__block">
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/france.svg')%>">
+                        <h4 class="item__text">Пари<br>
+                            Сен-Жермен</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/spain.svg')%>">
+                        <h4 class="item__text">Реал<br>
+                            Мадрид</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/italy.svg')%>">
+                        <h4 class="item__text">Ювентус</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/germany.svg')%>">
+                        <h4 class="item__text">Бавария</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/portugal.svg')%>">
+                        <h4 class="item__text">Порту</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/united-kingdom.svg')%>">
+                        <h4 class="item__text">Манчестер<br>
+                            Юнайтед</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                        <h4 class="item__text">Зенит</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/switzerland.svg')%>">
+                        <h4 class="item__text">Базель</h4>
+                    </div>
+                </div>
+                <div class="tournament__block_mini">
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/spain.svg')%>">
+                        <h4 class="item__text">Реал<br>
+                            Мадрид</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/italy.svg')%>">
+                        <h4 class="item__text">Ювентус</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/united-kingdom.svg')%>">
+                        <h4 class="item__text">Манчестер<br>
+                            Юнайтед</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                        <h4 class="item__text">Зенит</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="background__image-bottom">
+            <div class="tournament__box">
+                <h3 class="tournament__title_item">1/2 финала</h3>
+                <h3 class="tournament__title_item">Ф И Н А Л</h3>
+            </div>
+            <div class="tournament__table">
+                <div class="tournament__block">
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/spain.svg')%>">
+                        <h4 class="item__text">Реал<br>
+                            Мадрид</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/italy.svg')%>">
+                        <h4 class="item__text">Ювентус</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/united-kingdom.svg')%>">
+                        <h4 class="item__text">Манчестер<br>
+                            Юнайтед</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                        <h4 class="item__text">Зенит</h4>
+                    </div>
+                </div>
+                <div class="tournament__block_mini">
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/spain.svg')%>">
+                        <h4 class="item__text">Реал<br>
+                            Мадрид</h4>
+                    </div>
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                        <h4 class="item__text">Зенит</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="tournament__box_final">
+                <div class="tournament__title_final">
+                    <h3 class="tournament__title_item title-final">Ф И Н А Л</h3>
+                </div>
+                <div class="tournament__block_final">
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/spain.svg')%>">
+                        <h4 class="item__text">Реал<br>
+                            Мадрид</h4>
+                    </div>
+
+                    <div class="tournament__item">
+                        <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                        <h4 class="item__text">Зенит</h4>
+                    </div>
+                </div>
+                <div class="tournament__item_win">
+                    <img class="win__image" src="<%=require('./images/cup.svg')%>">
+                    <div class="win__command">
+                        <img class="item__flag" src="<%=require('./images/flag/russia.svg')%>">
+                        <img class="win__command_image" src="<%=require('./images/zenit.png')%>">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+<script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

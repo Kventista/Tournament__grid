@@ -1,0 +1,32 @@
+@import url('./vendor/normalize.css');
+@import url('./blocks/page.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/background/background-image.css');
+@import url('./blocks/item/__flag/tournament__flag.css');
+@import url('./blocks/item/__text/tournament__text.css');
+@import url('./blocks/item/item-final/item-final.css');
+@import url('./blocks/tournament/__block/tournament__block.css');
+@import url('./blocks/tournament/__box/tournament__box.css');
+@import url('./blocks/tournament/__content/tournament__content.css');
+@import url('./blocks/tournament/__item/tournament__item.css');
+@import url('./blocks/tournament/__table/tournament__table.css');
+@import url('./blocks/tournament/__title/tournament__title.css');
+@import url('./blocks/win/__command/win__command.css');
+@import url('./blocks/win/__image/win__image.css');
+@import url('blocks/background-mini/background__image.css');
+
+.content {
+    display: block;
+}
+.content__mini {
+    display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 629px) {
+    .content {
+        display: none;
+    }
+    .content__mini{
+        display: block;
+    }
+}

@@ -1,0 +1,50 @@
+.tournament__title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10vw;
+    margin-bottom: 3rem;
+}
+
+.title-final {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.tournament__title_final {
+    grid-area: title;
+    color: #FFFFFF;
+    margin: auto;
+    width: 100px;
+}
+
+.tournament__title_item {
+    display: flex;
+    justify-content: center;
+    font-family: 'Sansation_Regular', sans-serif;
+    font-weight: normal;
+    background: #3C3C54;
+    border: 4px double #ADC95F;
+    box-sizing: border-box;
+    padding: 0.2rem;
+}
+
+@media screen and (min-width: 530px) and (max-width: 829px) {
+    .tournament__title {
+        grid-column-gap: 5vw;
+    }
+
+    .tournament__title_item {
+    font-size: 1rem;
+    }
+    .tournament__title_final {
+        width: 90px;
+    }
+
+}
+
+@media screen and (min-width: 830px) and (max-width: 1024px) {
+    .tournament__title {
+        grid-column-gap: 7vw;
+        margin-bottom: 3rem;
+    }
+}

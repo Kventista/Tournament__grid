@@ -1,0 +1,15 @@
+@import url('__title/header__title.css');
+@import url('__logo/header__logo.css');
+
+header {
+    max-width: 100%;
+    background: linear-gradient(180deg, #134b76 0%,  #3aa0b8 50%, #134b76 100%);
+}
+.header {
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(1280px - 4rem);
+}
